@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './icons/fontAwesomeLibraries';
-import { Element, scroller } from 'react-scroll';
+import { Element } from 'react-scroll';
 import StickyNavbar from './StickyNavbar';
 import EmailButton from './components/EmailButton';
 import myImage from './assets/gradPic.JPG';
@@ -29,9 +29,6 @@ function App() {
       <div className='stuckIcon'>
         <div className="brands" >
           <a href="#">
-            <FontAwesomeIcon className="brandIcon" icon={['fab', 'twitter']} />
-          </a>
-          <a href="#">
             <FontAwesomeIcon className="brandIcon" icon={['fab', 'facebook']} />
           </a>
           <a href="#">
@@ -40,8 +37,11 @@ function App() {
           <a href="#">
             <FontAwesomeIcon className="brandIcon" icon={['fab', 'linkedin-in']} />
           </a>
-          <a href="#">
+          <a href="https://github.com/ITMsiza?tab=repositories">
             <FontAwesomeIcon className="brandIcon" icon={['fab', 'github']} />
+          </a>
+          <a href="https://www.youtube.com/@coconutkidsnurseryrhymes">
+            <FontAwesomeIcon className="brandIcon" icon={['fab', 'youtube']} />
           </a>
           <div class="verticalLine"></div>
         </div>
@@ -60,7 +60,7 @@ function App() {
               web applications with a focus on user experience and performance, using<br />
               <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>.
             </p>
-            <a href="#">Check out my animation work!</a>
+            <a href="https://www.youtube.com/@coconutkidsnurseryrhymes">Check out my animation work!</a>
           </div>
         </Element>
         <Element name="about" className="aboutSection">
@@ -103,7 +103,7 @@ function App() {
             <div className='javaProjects'>
               <div>
                 <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                <a href='#'>
+                <a href='https://github.com/ITMsiza/vanillaJS-weather-app/tree/master'>
                   <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                 </a>
                 <h6>
@@ -119,7 +119,7 @@ function App() {
               </div>
               <div>
                 <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                <a href='#'>
+                <a href='https://itmsiza.github.io/to-do-list/'>
                   <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                 </a>
                 <h6>
@@ -135,7 +135,7 @@ function App() {
               </div>
               <div>
                 <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                <a href='#'>
+                <a href='https://github.com/ITMsiza/calculator'>
                   <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                 </a>
                 <h6>
@@ -166,7 +166,7 @@ function App() {
             <div className='reactProjects'>
               <div >
                 <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                <a href='#'>
+                <a href='https://github.com/ITMsiza/job-listings-and-filtering'>
                   <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                 </a>
                 <h6>
@@ -182,7 +182,7 @@ function App() {
               </div>
               <div>
                 <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                <a href='#'>
+                <a href='https://github.com/ITMsiza/quiz'>
                   <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                 </a>
                 <h6>
@@ -198,7 +198,7 @@ function App() {
               </div>
               <div>
                 <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                <a href='#'>
+                <a href='https://github.com/ITMsiza/music-player'>
                   <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                 </a>
                 <h6>
@@ -216,7 +216,7 @@ function App() {
                 <>
                   <div>
                     <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                    <a href='#'>
+                    <a href='https://github.com/ITMsiza/temperature-converter'>
                       <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                     </a>
                     <h6>
@@ -248,7 +248,7 @@ function App() {
                   </div>
                   <div>
                     <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                    <a href='#'>
+                    <a href='https://github.com/ITMsiza/portfolio'>
                       <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                     </a>
                     <h6>
@@ -280,7 +280,7 @@ function App() {
                   </div>
                   <div>
                     <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                    <a href='#'>
+                    <a href='https://github.com/ITMsiza/weather-app'>
                       <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                     </a>
                     <h6>
@@ -318,9 +318,6 @@ function App() {
           </div>
           <div className="brands2" >
             <a href='#'>
-              <FontAwesomeIcon className="brandIcon" icon={['fab', 'twitter']} />
-            </a>
-            <a href='#'>
               <FontAwesomeIcon className="brandIcon" icon={['fab', 'facebook']} />
             </a>
             <a href='#'>
@@ -331,6 +328,9 @@ function App() {
             </a>
             <a href='#'>
               <FontAwesomeIcon className="brandIcon" icon={['fab', 'github']} />
+            </a>
+            <a href="https://www.youtube.com/@coconutkidsnurseryrhymes">
+              <FontAwesomeIcon className="brandIcon" icon={['fab', 'youtube']} />
             </a>
           </div>
           <a href='#' className='CopyRight'>

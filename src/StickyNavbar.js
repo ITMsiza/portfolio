@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import './App.css';
+import myResume from './assets/Isaac Updated Resume.pdf';
 import Navbar from './Navbar';
 
 const StickyNavbar = ({ sendDataToParent }) => {
@@ -80,7 +81,7 @@ const StickyNavbar = ({ sendDataToParent }) => {
             <span>04.</span> Contact
           </Link>
         </div>
-        <a className='btn' href="#">Resume</a>
+        <a className='btn' href={myResume}>Resume</a>
         <p className='buttonBackLayer'></p>
       </div>
       <Navbar />

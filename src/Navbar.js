@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from './icons/fontAwesomeLibraries';
+import myResume from './assets/Isaac Updated Resume.pdf';
 import './App.css';
 
 const Navbar = ({ mainContent }) => {
@@ -77,7 +78,7 @@ const Navbar = ({ mainContent }) => {
             <span>04.</span> Contact
           </Link>
           <div className="sidePath">
-            <a className="btn" href="#">
+            <a className="btn" href={myResume}>
               Resume
             </a>
             <p className="buttonBackLayer"></p>
