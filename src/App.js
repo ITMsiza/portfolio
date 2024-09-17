@@ -97,8 +97,8 @@ function App() {
           </div>
         </Element>
         <Element name="work" className="workSection">
+          <h2><span>03.</span>Some of The Things I've Built <hr className='workLine' /></h2>
           <div className='firstClass'>
-            <h2><span>03.</span>Some of The Things I've Built <hr className='workLine' /></h2>
             <p>Projects using CSS,HTML and JavaScript</p>
             <div className='javaProjects'>
               <div>
