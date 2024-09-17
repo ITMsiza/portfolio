@@ -308,9 +308,8 @@ function App() {
         <Element name="contact" className="contactSection">
           <h4><span>04.</span>What's Next?</h4>
           <h1>Get In Touch</h1>
-
-          <p>I'm currently looking for any opportunity, my inbox is always <br /> open.
-            Whether you have a question or just want to say hi, I'll get <br />back to you!
+          <p>I'm currently looking for any opportunity, my inbox is always open.
+            Whether you have a question or just want to say hi, I'll get back to you!
           </p>
           <div className='buttonAndBack'>
             <EmailButton email="itmsiza1994@gmail.com" />

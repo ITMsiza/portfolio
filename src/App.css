@@ -760,6 +760,10 @@
 
 .contactSection p {
   color: #cccccc;
+  width: 40%;
+  min-width: 380px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .contactSection button {
@@ -787,6 +791,7 @@
 .contactSection .buttonBackLayer {
   background-color: #b3ffe1;
   width: 7.5rem;
+  min-width: 1px;
   height: 2.813rem;
   position: relative;
   margin: auto;
@@ -925,6 +930,10 @@
 }
 
 @media (max-width: 768px) {
+  .contactSection p{
+    word-wrap: break-word;
+  }
+
   .logo {
     display: block;
     position: relative;
@@ -1030,6 +1039,8 @@
   .text {
     flex: 1;
     height: auto;
+    width: 100%;
+    padding-right: 0;
   }
 
   .img {
@@ -1044,12 +1055,27 @@
   }
 }
 
+@media (max-width: 590px) {
+  .workLine{
+    display:none;
+  }
+}
+
 @media (max-width: 480px) {
+  .App {
+    padding: 0 50px;
+    background-color: blueviolet;
+  }
+  
   .content h1 {
     font-size: 2.1rem;
   }
 
   .name span {
     font-size: 2.1rem;
+  }
+
+  .skill{
+    font-size: 1px;
   }
 }
