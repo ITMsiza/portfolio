@@ -305,7 +305,7 @@
   border-radius: 0.313rem;
   border-style: solid;
   border-color: #b3ffe1;
-  border-width: 0.8vw;
+  border-width: 0.2vw;
   color: #b3ffe1;
   text-decoration: none;
   transition: transform 5s;
@@ -1065,6 +1065,10 @@
 }
 
 @media (max-width: 480px) {
+  .contactSection h1 {
+    font-size: 10.42vw;
+  }
+
   .App {
     padding: 0 25px;
 
