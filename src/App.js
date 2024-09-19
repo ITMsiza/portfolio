@@ -325,7 +325,7 @@ function App() {
             <a href='#'>
               <FontAwesomeIcon className="brandIcon" icon={['fab', 'linkedin-in']} />
             </a>
-            <a href='#'>
+            <a href='https://www.youtube.com/@coconutkidsnurseryrhymes'>
               <FontAwesomeIcon className="brandIcon" icon={['fab', 'github']} />
             </a>
             <a href="https://www.youtube.com/@coconutkidsnurseryrhymes">
