@@ -9,11 +9,17 @@ import myImage from './assets/gradPic.JPG';
 import { faFolder, faGithub } from './icons/fontAwesomeLibraries';
 import { Fade } from 'react-awesome-reveal';
 import Navbar from './Navbar';
+import TypingEffect from './TypingEffect';
 
 function App() {
 
   const [showMore1, setShowMore1] = useState(false);
   const [showMore2, setShowMore2] = useState(false);
+  const sentences = [
+    "Frontend Developer.",
+    "Web Developer.",
+    "Software Developer."
+  ];
 
   const toggleShowMore1 = () => {
     setShowMore1(!showMore1);
@@ -53,8 +59,9 @@ function App() {
       <Fade direction='up' delay={300} duration={1000} triggerOnce>
         <Element name="home" className='home'>
           <div className="content">
-            <p className="name">Hi, my name is <br /> <span>Isaac Msiza.</span></p>
-            <h1>I build things for the web.</h1>
+            <p className="name">Hi, my name is <br/> </p>
+            <span className='username'>Isaac Msiza.</span>
+            <h1> I'm a <span><TypingEffect sentences={sentences} speed={100} /></span></h1>
             <p className="skill">
               I'm a frontend developer specializing in React.js. I build dynamic, responsive<br />
               web applications with a focus on user experience and performance, using<br />
