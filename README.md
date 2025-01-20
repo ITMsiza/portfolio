@@ -1,14 +1,10 @@
-# Demo
-
-https://itmsiza.github.io/portfolio/
-
 ## What the project is about. 
 
 My portfolio is a responsive website designed to highlight my frontend development skills, particularly in React.js and CSS. The goal was to showcase my projects, skills, and experience in a professional and visually appealing way. It features a home section, a about section, a project gallery, and a contact section. I used React.js for interactivity, CSS for styling, and ensured it adapts to different screen sizes. This project has allowed me to present my abilities effectively and serves as a platform to connect with potential employers and clients.
 
 ## How to run it.
 
-1. Click this link https://itmsiza.github.io/portfolio/,it will direct you to my project.
+1. Click this link https://itmsiza.github.io/portfolio/, it will direct you to my project.
    
 2. On home page it is my profile summary and below the text there is a button links to my YouTube channel, where I showcase my skills in animation developed over the past two years. I specialized in creating educational animations for children.
    
