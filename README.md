@@ -8,7 +8,7 @@ My portfolio is a responsive website designed to highlight my frontend developme
 
 ## How to run it.
 
-1. Click this link it will direct you to my project.
+1. Click this link https://itmsiza.github.io/portfolio/,it will direct you to my project.
    
 2. On home page it is my profile summary and below the text there is a button links to my YouTube channel, where I showcase my skills in animation developed over the past two years. I specialized in creating educational animations for children.
    
