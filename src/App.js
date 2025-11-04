@@ -16,6 +16,7 @@ function App() {
   const [showMore1, setShowMore1] = useState(false);
   const [showMore2, setShowMore2] = useState(false);
   const sentences = [
+    "Full Stack Developer.",
     "Frontend Developer.",
     "Web Developer.",
     "Software Developer."
@@ -63,9 +64,12 @@ function App() {
             <span className='username'>Isaac Msiza.</span>
             <h1> I'm a <span><TypingEffect sentences={sentences} speed={100} /></span></h1>
             <p className="skill">
-              I'm a frontend developer specializing in React.js. I build dynamic, responsive<br />
-              web applications with a focus on user experience and performance, using<br />
-              <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>.
+              I’m a Full Stack Developer specializing in building modern, high-performance web applications using <br />
+              <span>React</span> and <span>Next.js</span>. I create clean, responsive user interfaces and integrate them with reliable backend <br />
+              systems and REST APIs. I work with databases such as <span>PostgreSQL</span> (via Prisma), <span>MySQL</span>, and <span>MongoDB</span>,<br />
+              and I use Firebase for backend services including authentication, Firestore data management, and hosting. <br />
+              I enjoy solving real-world problems through code and delivering products that are fast, scalable, and <br />
+              user-friendly.
             </p>
             <a href="https://www.youtube.com/@coconutkidsnurseryrhymes">Check out my animation work!</a>
           </div>
@@ -76,25 +80,30 @@ function App() {
             <div className='text'>
               <p>
                 <a class="sub-section">
-                  A passionate developer with a strong foundation in React.js, I have independently built and completed
-                  several projects to demonstrate my proficiency in the framework. My journey into web development has
-                  been fueled by a deep interest in creating seamless and engaging user experiences.
+                  I’m a passionate Full Stack Developer who enjoys building powerful, user-focused 
+                  web applications from start to finish. I specialize in React.js and Next.js for creating dynamic, 
+                  responsive frontends, and I’m skilled in developing scalable backends using REST APIs with databases 
+                  like PostgreSQL (via Prisma ORM), MySQL, and MongoDB.
                 </a>
 
                 <a class="sub-section">
-                  I have invested significant time mastering the intricacies
-                  of React, focusing on building dynamic and responsive web applications tailored to modern user needs.
-                  My projects showcase my ability to implement key frontend concepts, such as component-based architecture,
-                  state management, and responsive design.
+                  I also work extensively with Firebase, handling authentication, Firestore database management, and 
+                  hosting — allowing me to deliver secure, cloud-powered solutions. My development process focuses on 
+                  clean, maintainable code and creating seamless connections between frontend and backend systems.
                 </a>
 
                 <a class="sub-section">
-                  I am dedicated to optimizing performance and ensuring accessibility across various devices and platforms.
-                  By continually exploring new technologies and best practices, I aim to stay at the forefront of web development.
-                  My portfolio reflects my commitment to continuous learning and my ability to translate complex React
-                  concepts into user-friendly applications. I am eager to contribute my self-taught expertise and
-                  passion for development to innovative teams that value creativity and excellence.
+                  Over time, I’ve worked on projects that include interactive dashboards, appointment booking systems, 
+                  and real-time data-driven applications — experiences that have strengthened my problem-solving skills 
+                  and ability to adapt to new technologies.
                 </a>
+
+                <a class="sub-section">
+                  I’m driven by curiosity, continuous learning, and a love for turning complex ideas into smooth digital 
+                  experiences. My goal is to collaborate with teams that value innovation and growth while contributing to 
+                  impactful software solutions.
+                </a>
+                
               </p>
             </div>
             <div className='img'>
@@ -301,6 +310,121 @@ function App() {
                       REACT
                     </p>
                   </div>
+                </>
+              )}
+            </div>
+            <div className='button2'>
+              <button onClick={toggleShowMore2} className="show-more-button">
+                {showMore2 ? 'Show Less' : 'Show More'}
+              </button>
+              <p className='buttonBackLayer'></p>
+            </div>
+          </div>
+
+          <div className='secondClass'>
+            <p>Full Stack Projects using Next.js (React)</p>
+            <div className='reactProjects'>
+              <div >
+                <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
+                <a href='https://github.com/ITMsiza/PermitEase'>
+                  <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
+                </a>
+                <h6>
+                  PermitEase
+                </h6>
+                <p className='boxParagraph'>
+                  Built a smart transport permit solution that digitizes approvals, simplifies 
+                  workflows, and enhances efficiency compared to manual processing.
+                </p>
+                <p className='footer'>
+                  Next.js (REACT)
+                </p>
+              </div>
+            
+              {showMore2 && (
+                <>
+                  <div>
+                    <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
+                    <a href='https://github.com/ITMsiza/temperature-converter'>
+                      <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
+                    </a>
+                    <h6>
+                      Temperature Convertor
+                    </h6>
+                    <p className='boxParagraph'>
+                      Building a temperature converter app simplifies converting between temperature units,
+                      enhancing accuracy, convenience, and usability for educational, scientific, and everyday needs.
+                    </p>
+                    <p className='footer'>
+                      REACT
+                    </p>
+                  </div>
+                  <div>
+                    <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
+                    <a href='#'>
+                      <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
+                    </a>
+                    <h6>
+                      Calculator
+                    </h6>
+                    <p className='boxParagraph'>
+                      Building a calculator app to provide a quick, accurate calculations for everyday
+                      tasks, enhancing convenience, efficiency, and mathematical proficiency.
+                    </p>
+                    <p className='footer'>
+                      REACT
+                    </p>
+                  </div>
+                  <div>
+                    <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
+                    <a href='https://github.com/ITMsiza/portfolio'>
+                      <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
+                    </a>
+                    <h6>
+                      Portfolio
+                    </h6>
+                    <p className='boxParagraph'>
+                      I built a portfolio to showcase my skills, experience, and accomplishments, creating a professional
+                      online presence that attracts opportunities, clients, and employers, while enhancing my personal brand.
+                    </p>
+                    <p className='footer'>
+                      REACT
+                    </p>
+                  </div>
+                  <div>
+                    <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
+                    <a href='#'>
+                      <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
+                    </a>
+                    <h6>
+                      To Do List
+                    </h6>
+                    <p className='boxParagraph'>
+                      I built a to-do list app to enhance productivity, organization, and time management
+                      by providing users with a simple, intuitive way to track and prioritize tasks.
+                    </p>
+                    <p className='footer'>
+                      REACT
+                    </p>
+                  </div>
+                  <div>
+                    <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
+                    <a href='https://github.com/ITMsiza/weather-app'>
+                      <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
+                    </a>
+                    <h6>
+                      Weather App
+                    </h6>
+                    <p className='boxParagraph'>
+                      Building a weather app to provide a real-time forecasts, alerts, and personalized
+                      updates, enhancing safety, convenience, and integration with daily routines.
+                    </p>
+                    <p className='footer'>
+                      REACT
+                    </p>
+                  </div>
+
+                  
                 </>
               )}
             </div>
