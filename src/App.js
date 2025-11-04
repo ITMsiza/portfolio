@@ -320,7 +320,6 @@ function App() {
               <p className='buttonBackLayer'></p>
             </div>
           </div>
-
           <div className='secondClass'>
             <p>Full Stack Projects using Next.js (React)</p>
             <div className='reactProjects'>
@@ -470,7 +469,6 @@ function App() {
       </Fade>
     </section>
   );
-
   return (
     <>
       <Navbar mainContent={jsxContent} />
