@@ -35,12 +35,15 @@ function App() {
       <StickyNavbar />
       <div className='stuckIcon'>
         <div className="brands" >
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
           <a href="#">
             <FontAwesomeIcon className="brandIcon" icon={['fab', 'facebook']} />
           </a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
           <a href="#">
             <FontAwesomeIcon className="brandIcon" icon={['fab', 'instagram']} />
           </a>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid*/}
           <a href="#">
             <FontAwesomeIcon className="brandIcon" icon={['fab', 'linkedin-in']} />
           </a>
