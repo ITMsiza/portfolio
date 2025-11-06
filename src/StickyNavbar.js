@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import './App.css';
-import myResume from './assets/Resume.pdf';
+import myResume from './assets/Isaac Updated Resume.pdf';
 import Navbar from './Navbar';
 
 const StickyNavbar = ({ sendDataToParent }) => {
