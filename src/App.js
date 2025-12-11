@@ -117,7 +117,7 @@ function App() {
         </Element>
         <Element name="work" className="workSection">
           <h2><span>03.</span>Some of The Things I've Built <hr className='workLine' /></h2>
-          <div className='firstClass'>
+          {/*<div className='firstClass'>
             <p>Projects using CSS,HTML and JavaScript</p>
             <div className='javaProjects'>
               <div>
@@ -179,8 +179,8 @@ function App() {
               </button>
               <p className='buttonBackLayer'></p>
             </div>
-          </div>
-          <div className='secondClass'>
+          </div>*/}
+          {/*<div className='secondClass'>
             <p>Projects using React</p>
             <div className='reactProjects'>
               <div >
@@ -322,7 +322,7 @@ function App() {
               </button>
               <p className='buttonBackLayer'></p>
             </div>
-          </div>
+          </div>*/}
           <div className='secondClass'>
             <p>Full Stack Projects using Next.js (React)</p>
             <div className='reactProjects'>
@@ -342,8 +342,25 @@ function App() {
                   Next.js (REACT)
                 </p>
               </div>
+
+               <div >
+                <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
+                <a href='https://github.com/ITMsiza/smartcare-booking'>
+                  <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
+                </a>
+                <h6>
+                  Doctor Booking System
+                </h6>
+                <p className='boxParagraph'>
+                  Built a SmartCare booking solution with dedicated dashboards for patients, doctors, 
+                  and admins, enabling seamless bookings, availability management, and hospital oversight.
+                </p>
+                <p className='footer'>
+                  Next.js (REACT)
+                </p>
+              </div>
             
-              {showMore2 && (
+              {/*{showMore2 && (
                 <>
                   <div>
                     <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
@@ -428,7 +445,7 @@ function App() {
 
                   
                 </>
-              )}
+              )}*/}
             </div>
             <div className='button2'>
               <button onClick={toggleShowMore2} className="show-more-button">
