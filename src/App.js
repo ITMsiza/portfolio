@@ -18,6 +18,7 @@ function App() {
   const sentences = [
     "Full Stack Developer.",
     "Frontend Developer.",
+    "Spring Boot Backend Developer",
     "Web Developer.",
     "Software Developer."
   ];
@@ -50,7 +51,7 @@ function App() {
           <a href="https://github.com/ITMsiza?tab=repositories">
             <FontAwesomeIcon className="brandIcon" icon={['fab', 'github']} />
           </a>
-          <a href="https://www.youtube.com/@coconutkidsnurseryrhymes">
+          <a href="#">
             <FontAwesomeIcon className="brandIcon" icon={['fab', 'youtube']} />
           </a>
           <div class="verticalLine"></div>
@@ -68,13 +69,13 @@ function App() {
             <h1> I'm a <span><TypingEffect sentences={sentences} speed={100} /></span></h1>
             <p className="skill">
               I’m a Full Stack Developer specializing in building modern, high-performance web applications using <br />
-              <span>React</span> and <span>Next.js</span>. I create clean, responsive user interfaces and integrate them with reliable backend <br />
-              systems and REST APIs. I work with databases such as <span>PostgreSQL</span> (via Prisma), <span>MySQL</span>, and <span>MongoDB</span>,<br />
-              and I use Firebase for backend services including authentication, Firestore data management, and hosting. <br />
-              I enjoy solving real-world problems through code and delivering products that are fast, scalable, and <br />
-              user-friendly.
+              <span>React</span> and <span>Next.js</span>. I develop clean, responsive user interfaces and connect them to robust backend <br />
+              systems built with <span>Spring Boot</span> and REST APIs. I work with databases such as <span>PostgreSQL</span>, <span>MySQL</span>, <br />
+              and <span>MongoDB</span>, and I also integrate Firebase for authentication and backend services. <br />
+              I focus on building scalable, secure, and efficient applications that solve real-world problems and <br />
+              deliver smooth user experiences.
             </p>
-            <a href="https://www.youtube.com/@coconutkidsnurseryrhymes">Check out my animation work!</a>
+            <a href="#">Check out more!</a>
           </div>
         </Element>
         <Element name="about" className="aboutSection">
@@ -83,30 +84,34 @@ function App() {
             <div className='text'>
               <p>
                 <a class="sub-section">
-                  I’m a passionate Full Stack Developer who enjoys building powerful, user-focused 
-                  web applications from start to finish. I specialize in React.js and Next.js for creating dynamic, 
-                  responsive frontends, and I’m skilled in developing scalable backends using REST APIs with databases 
-                  like PostgreSQL (via Prisma ORM), MySQL, and MongoDB.
+                  I'm a Full Stack Developer with a strong specialization in <span>Spring Boot backend development</span> 
+                  and modern frontend development using <span>React.js</span> and <span>Next.js</span>. I enjoy building 
+                  scalable, secure, and high-performance web applications, with a particular focus on designing robust 
+                  backend systems, RESTful APIs, authentication workflows, and database-driven solutions.
                 </a>
-
-                <a class="sub-section">
-                  I also work extensively with Firebase, handling authentication, Firestore database management, and 
-                  hosting — allowing me to deliver secure, cloud-powered solutions. My development process focuses on 
-                  clean, maintainable code and creating seamless connections between frontend and backend systems.
-                </a>
-
-                <a class="sub-section">
-                  Over time, I’ve worked on projects that include interactive dashboards, appointment booking systems, 
-                  and real-time data-driven applications — experiences that have strengthened my problem-solving skills 
-                  and ability to adapt to new technologies.
-                </a>
-
-                <a class="sub-section">
-                  I’m driven by curiosity, continuous learning, and a love for turning complex ideas into smooth digital 
-                  experiences. My goal is to collaborate with teams that value innovation and growth while contributing to 
-                  impactful software solutions.
-                </a>
+                  
+                <a class="sub-section"> 
+                  My backend expertise includes developing enterprise-grade applications with <span>Spring Boot</span>, 
+                  <span>Java</span>, <span>PostgreSQL</span>, <span>MySQL</span>, <span>MongoDB</span>, and API integrations. 
+                  On the frontend, I build responsive and user-friendly interfaces using <span>React.js</span>, 
+                  <span>Next.js</span>, <span>JavaScript</span>, <span>HTML</span>, and <span>CSS</span>. This combination
+                  allows me to deliver complete end-to-end solutions, from database design and business logic to intuitive
+                  user experiences.
+                </a> 
                 
+                <a class="sub-section"> 
+                  With practical experience in web development and full-stack application design, I have built projects such 
+                  as <span>Accommodation Booking Platforms</span>, <span>Appointment Scheduling Systems</span>, <span>Transport 
+                  Permit Management Solutions</span>, and <span>Real-Time Data-Driven Applications</span>. These projects have
+                  strengthened my ability to architect scalable systems, solve complex technical challenges, and create 
+                  software that addresses real business needs.
+                </a> 
+
+                <a class="sub-section"> 
+                  I am passionate about <span>Clean Architecture</span>, <span>Maintainable Code</span>, and <span>Continuous 
+                  Learning</span>. My goal is to contribute to innovative teams and impactful products while growing as both 
+                  a <span>Spring Boot Backend Developer</span> and a <span>Full Stack Developer</span>.
+                </a> 
               </p>
             </div>
             <div className='img'>
@@ -324,22 +329,21 @@ function App() {
             </div>
           </div>*/}
           <div className='secondClass'>
-            <p>Full Stack Projects using Next.js (React)</p>
+            <p>Full Stack Projects using Next js (React) And Spring Boot </p>
             <div className='reactProjects'>
               <div >
                 <FontAwesomeIcon className='fontAwesomeIconFolder' icon={faFolder} />
-                <a href='https://github.com/ITMsiza/PermitEase'>
+                <a href='https://github.com/ITMsiza/Accommodation-Booking-System'>
                   <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                 </a>
                 <h6>
-                  PermitEase
+                  SmartEase
                 </h6>
                 <p className='boxParagraph'>
-                  Built a smart transport permit solution that digitizes approvals, simplifies 
-                  workflows, and enhances efficiency compared to manual processing.
+                  Built a digital booking system for managing room availability, reservations, and user bookings
                 </p>
                 <p className='footer'>
-                  Next.js (REACT)
+                  Next js (REACT) And Spring Boot
                 </p>
               </div>
 
@@ -356,7 +360,7 @@ function App() {
                   and admins, enabling seamless bookings, availability management, and hospital oversight.
                 </p>
                 <p className='footer'>
-                  Next.js (REACT)
+                  Next js (REACT) And NodeJS
                 </p>
               </div>
             
