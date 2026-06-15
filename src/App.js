@@ -337,7 +337,7 @@ function App() {
                   <FontAwesomeIcon className='fontAwesomeIconGit' icon={faGithub} />
                 </a>
                 <h6>
-                  SmartEase
+                  StayEase
                 </h6>
                 <p className='boxParagraph'>
                   Built a digital booking system for managing room availability, reservations, and user bookings
